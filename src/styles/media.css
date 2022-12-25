@@ -1,0 +1,113 @@
+@media (min-width: 360px) and (max-width: 500px) {
+    .close {
+        color: red;
+        font-size: 60px;
+        position: absolute;
+        right: 20px;
+    }
+
+    label {
+        padding-left: 0px;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+    .wrapper_create {
+        width: 100%;
+        margin: 0 auto;
+        background-image: linear-gradient(#E0EAFC, #CFDEF3);
+        border-radius: 20px;
+        border-top: 18px solid rgb(120, 120, 120);
+        border-bottom: 10px solid rgb(120, 120, 120);
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .wrapper-form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .need {
+        margin-top: .5em;
+        font-size: 40px;
+        margin-left: 0;
+    }
+
+    .margin5 {
+        margin-top: 6%;
+        margin-bottom: 6%;
+        text-align: center;
+    }
+
+    .calendar {
+        width: 100%;
+        height: 40.5px;
+        font-size: 19px;
+        border-radius: 4px;
+        padding-left: 9px;
+        border: 1px solid hsl(0, 0%, 80%);
+        align-items: center;
+    }
+
+    .calendar:hover {
+        width: 100%;
+        height: 40.5px;
+        font-size: 19px;
+        border-radius: 4px;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        cursor: pointer;
+        padding-left: 9px;
+    }
+
+    .inpute-form {
+        height: 40.5px;
+        width: 100%;
+        border-radius: 4px;
+        padding-left: 9px;
+        font-size: 19px;
+        border: 1px solid hsl(0, 0%, 80%);
+    }
+
+    .inpute-form:hover {
+        height: 40.5px;
+        width: 100%;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 4px;
+    }
+
+    .inpute-form:focus {
+        height: 40.5px;
+        width: 100%;
+        border-radius: 4px;
+        padding-left: 9px;
+    }
+
+    .font-select {
+        max-width: 100%;
+        border-radius: 4px;
+        font-size: 19px;
+        height: 40.5px;
+    }
+
+    .font-select:hover {
+        max-width: 100%;
+        height: 40.5px;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 4px;
+        font-size: 19px;
+    }
+
+    .for-small-screens {
+        display: none;
+    }
+
+    .btn-back {}
+
+}
+
+@media (min-width: 389px) and (max-width: 460px) {}
